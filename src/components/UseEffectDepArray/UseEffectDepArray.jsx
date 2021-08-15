@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 const UseEffectDepArray = () => {
   const [counter, setCounter] = useState(0);
   const [counter2, setCounter2] = useState(0);
-  const [stateObj, setStateObj] = useState({ hello: 1 });
+  const [stateObj] = useState({ hello: 1 });
 
-  const object1 = { hello: 1 };
+  //   const object1 = { hello: 1 };
 
   useEffect(() => {
     console.log("counter changed");

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const LifeCycleOfHooks = () => {
   //   const [counter, setCounter] = useState(0);
