@@ -5,9 +5,9 @@ const UseEffectIntro = () => {
   const [counter2, setCounter2] = useState(0);
 
   // with no dependency array, this will run every render cycle
-  useEffect(() => {
-    console.log("something changed");
-  });
+  // useEffect(() => {
+  //   console.log("something changed");
+  // });
 
   return (
     <div className="StateCounter">
@@ -16,7 +16,7 @@ const UseEffectIntro = () => {
         Counter: {counter}
       </h3>
       <h3 onClick={() => setCounter2((counter) => counter + 1)}>
-        Counter2: {counter2}
+        Counter 2: {counter2}
       </h3>
       <hr />
     </div>
